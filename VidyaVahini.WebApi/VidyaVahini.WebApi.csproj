@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>d59fd7f4-1022-41dd-b735-dc5e0cf6365c</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\EmailTemplates\ForgotPasswordEmail.html" />
+    <None Remove="Assets\EmailTemplates\MentorAccountActivationEmail.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\EmailTemplates\ForgotPasswordEmail.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\EmailTemplates\MentorAccountActivationEmail.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\EmailTemplates\NewMentorRegistrationEmail.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\EmailTemplates\AccountActivationEmail.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Images\facebook2x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Images\googleplus2x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Images\icon_mail_white.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Images\icon_phone_white.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Images\pic.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Images\twitter2x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="MySql.Data" Version="8.0.23" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VidyaVahini.Core\VidyaVahini.Core.csproj" />
+    <ProjectReference Include="..\VidyaVahini.DataAccess.Contracts\VidyaVahini.DataAccess.Contracts.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Entities\VidyaVahini.Entities.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Infrastructure.Contracts\VidyaVahini.Infrastructure.Contracts.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Infrastructure\VidyaVahini.Infrastructure.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Repository.Contracts\VidyaVahini.Repository.Contracts.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Repository\VidyaVahini.Repository.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Service.Contracts\VidyaVahini.Service.Contracts.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Service\VidyaVahini.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\vv-pyf-api-master\VidyaVahini.WebApi\bin\Debug\netcoreapp3.1\MySql.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

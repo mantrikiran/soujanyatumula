@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VidyaVahini.Core\VidyaVahini.Core.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Entities\VidyaVahini.Entities.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Infrastructure\VidyaVahini.Infrastructure.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Repository\VidyaVahini.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

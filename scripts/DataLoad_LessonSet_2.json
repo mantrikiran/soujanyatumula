@@ -1,0 +1,2393 @@
+{
+  "levelId": 1,
+  "lessonSetId": "c5dc1d4d-dae0-4dc6-84d8-030d361fa797",
+  "lessonSetOrder": 2,
+  "lessons": [
+    {
+      "lessonNumber": 6,
+      "lessonSections": [
+        {
+          "sectionIdentifier": "LISTEN_KEENLY",
+          "lessonSectionName": "Spirit of Christmas",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Take the Quiz",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "What were the two things valuable in her family?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Jewels and money",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Books and pen",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Land and house",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Hair and golden watch",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 2,
+                  "questionText": "What did the woman do?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Sold her hair",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Went to a parlour",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Had an ice cream",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Ate with her friends",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 3,
+                  "questionText": "What did the woman do with the money?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Bought a new dress for herself",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Bought a leather belt for her husband",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Bought a ticket to the movies",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "None of these",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 4,
+                  "questionText": "What did the man bring home as a gift?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Jewellery for her hair",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "A new dress",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "A new bracelet",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "A new watch",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 5,
+                  "questionText": "How did the man pay for it?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "By selling his golden watch",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "By borrowing money",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "By asking his boss for money",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "By doing double shift",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 6,
+                  "questionText": "What is true love?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Thinking of themselves",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Not thinking of anyone",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Thinking of each other",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "None of these",
+                      "isAnswer": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sectionIdentifier": "SPEAK_WELL",
+          "lessonSectionName": "Conversation Practice",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "What is your first name?"
+            },
+            {
+              "questionOrder": 2,
+              "questionText": "What is your surname or family name?"
+            },
+            {
+              "questionOrder": 3,
+              "questionText": "Which is your hometown?"
+            },
+            {
+              "questionOrder": 4,
+              "questionText": "Do you know to speak and write in English?"
+            },
+            {
+              "questionOrder": 5,
+              "questionText": "What do you do in your free time?"
+            }
+          ]
+        },
+        {
+          "sectionIdentifier": "READ_ALOUD",
+          "lessonSectionName": "The Water-Man",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Bantoo lived in a village. He tried to teach the elders to save water for the future. He became unhappy when the villagers wasted water. There was only one well in that village. Bantoo explained that each family should take only five pots of water each day. The villagers did not bother and wasted a lot of water. He warned them that the well will soon become dry and there will be no water to drink. No one cared. Bantoo became sad and left the village. Within a month, the village well became dry. The people did not know what to do. They prayed in the temple. The priest broke coconuts. Nothing happened. An old man asked the villagers to bring Bantoo back to the village.<br/><br/>Bantoo came back and helped them dig a new well. He also cleaned the old well. Soon it was time for the rainy season. The rains filled both the old and the new wells. The villagers had learnt a lesson and they now used the water carefully. Bantoo showed the people how to save water without wasting. He became the water man of the village."
+            }
+          ]
+        },
+        {
+          "sectionIdentifier": "WRITE_RIGHT",
+          "lessonSectionName": "Pronoun",
+          "lessonSectionDescription": "A pronoun is a word that can take the place of a noun. They are used to avoid repeating the same nouns over and over again. Amy lives in this house. Amy’s house is very big. Amy has a brown dog. This can be written as Amy lives in this house. It is very big. She has a brown dog. <b>It, She</b> are pronouns.",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Unscramble the following to create pronouns",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "EW",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "W",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "E",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 2,
+                  "questionText": "SU",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "U",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "S",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 3,
+                  "questionText": "EH",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "H",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "E",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 4,
+                  "questionText": "OUY",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "Y",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "U",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 5,
+                  "questionText": "MIH",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "H",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "I",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "M",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 6,
+                  "questionText": "HEYT",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "T",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "H",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "E",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "answerOrder": 4,
+                      "optionText": "Y",
+                      "isAnswer": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "questionOrder": 2,
+              "questionText": "Pick out the adjectives from the list given below",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "Pick out the adjectives from the list given below",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "beautiful",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "eagerly",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "pretty",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "slowly",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 5,
+                      "optionText": "three",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 6,
+                      "optionText": "ugly",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 7,
+                      "optionText": "what",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 8,
+                      "optionText": "long",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 9,
+                      "optionText": "short",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 10,
+                      "optionText": "better",
+                      "isAnswer": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonNumber": 7,
+      "lessonSections": [
+        {
+          "sectionIdentifier": "LISTEN_KEENLY",
+          "lessonSectionName": "Be Yourself",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Take the Quiz",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "Who was ambitious?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Frog",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Fish",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Fox",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Ox",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 2,
+                  "questionText": "What did he want to become?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Dog",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Goat",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Sheep",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Cow",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 3,
+                  "questionText": "What did he do?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Jump",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Breathe",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Sing",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Dance",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 4,
+                  "questionText": "Give another word for big.",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Tiny",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Large",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Small",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Long",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 5,
+                  "questionText": "Give the antonym or opposite of inhalation.",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Breathe",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Sleep",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Exhalation",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Meditation",
+                      "isAnswer": false
+                    }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+        {
+          "sectionIdentifier": "SPEAK_WELL",
+          "lessonSectionName": "Conversation Practice",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "How many times do we eat in a day?"
+            },
+            {
+              "questionOrder": 2,
+              "questionText": "What do you usually have for breakfast?"
+            },
+            {
+              "questionOrder": 3,
+              "questionText": "What do people have for snacks?"
+            },
+            {
+              "questionOrder": 4,
+              "questionText": "Describe a typical lunch or dinner that you normally have?"
+            },
+            {
+              "questionOrder": 5,
+              "questionText": "Do you include fruits and vegetables in your diet every day?"
+            }
+          ]
+        },
+        {
+          "sectionIdentifier": "READ_ALOUD",
+          "lessonSectionName": "The Green Battle",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "In the kitchen of the village chief, there were many vegetables and fruits. The cook was always busy as he prepared tasty dishes to keep the household happy. He used a lot of vegetables, fresh from the fields, to make tasty soups, colourful salads, yummy fries, steamed veggies and spicy gravies.<br/><br/>There were a lot of fruits waiting for their turn to be served. The watermelons and muskmelons, mangoes and apples, bananas and oranges came to the shelves according to the season. Somehow the fruits were unhappy as they felt that only the vegetables were given importance. They decided to ask the cook about it.<br/><br/>“Hey Mr Cook, look here”, said the fruits in one voice. The cook, busy cutting the carrots, looked up in surprise as he heard the fruits speaking. “We have a problem and we want you to clarify”, said the fruits. “What is it?”, asked the cook. “You seem to like the vegetables more and not us, fruits. We feel sad”, cried the fruits.<br/><br/>“Oh ho, ha, ha”, laughed the cook. “Which eye is precious for me?”, asked the cook “Both, of course, what a silly question”, replied the ripe, yellow banana. “So too dear fruits, you are as precious as the vegetables, together you feed the family and make them big and strong, now stop fighting and go back happy”, said the cook waving them away."
+            }
+          ]
+        },
+        {
+          "sectionIdentifier": "WRITE_RIGHT",
+          "lessonSectionName": "Antonyms",
+          "lessonSectionDescription": "A word which refers to the opposite of another word is called an antonym. E.g. Big-small",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Unscramble the following to get antonyms of the given words.",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "Rich - ROPO",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "P",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "answerOrder": 4,
+                      "optionText": "R",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 2,
+                  "questionText": "Old - EWN",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "N",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "E",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "W",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 3,
+                  "questionText": "Tall - HTROS",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "S",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "H",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "answerOrder": 4,
+                      "optionText": "R",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 5,
+                      "answerOrder": 5,
+                      "optionText": "T",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 4,
+                  "questionText": "Slow - SFTA",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "F",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "A",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "S",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "answerOrder": 4,
+                      "optionText": "T",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 5,
+                  "questionText": "Sad - PAPYH",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "H",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "A",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "P",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "answerOrder": 4,
+                      "optionText": "P",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 5,
+                      "answerOrder": 5,
+                      "optionText": "Y",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 6,
+                  "questionText": "Fat - HNIT",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "T",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "H",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "I",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "answerOrder": 4,
+                      "optionText": "N",
+                      "isAnswer": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "questionOrder": 2,
+              "questionText": "Pick out the pairs which are antonyms in the list given below",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "Pick out the pairs which are antonyms in the list given below",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Old-New",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Bright-Dull",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Clean-Tidy",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Clean-Dirty",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 5,
+                      "optionText": "Little-Small",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 6,
+                      "optionText": "Slow-Fast",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 7,
+                      "optionText": "Big-Enormous",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 8,
+                      "optionText": "Tall-Short",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 9,
+                      "optionText": "Quick-Fast",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 10,
+                      "optionText": "Warm-Cool",
+                      "isAnswer": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonNumber": 8,
+      "lessonSections": [
+        {
+          "sectionIdentifier": "LISTEN_KEENLY",
+          "lessonSectionName": "Never want to work",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Take the Quiz",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "What was the father?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Sailor",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Merchant",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Farmer",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Grocer",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 2,
+                  "questionText": "Give the antonym of hard.",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Easy",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Difficult",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Heavy",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Light",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 3,
+                  "questionText": "What work did Little John do?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Scrubbing pots",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Fetching water",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Go to the market",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "All of these",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 4,
+                  "questionText": "What did he see at the edge of the well?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "A mouse",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "A fairy",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "A demon",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "A ghost",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 5,
+                  "questionText": "What made John return the wish to the fairy?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "He got too much gold",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "He could not eat or play properly",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "He completed his work.",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "He felt bored.",
+                      "isAnswer": false
+                    }
+                  ]
+                }
+                  ]
+                }
+              ]
+        },
+        {
+          "sectionIdentifier": "SPEAK_WELL",
+          "lessonSectionName": "Conversation Practice",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Where is your school?"
+            },
+            {
+              "questionOrder": 2,
+              "questionText": "How far is your school from your house?"
+            },
+            {
+              "questionOrder": 3,
+              "questionText": "How long have you been a teacher?"
+            },
+            {
+              "questionOrder": 4,
+              "questionText": "Why do you like teaching?"
+            },
+            {
+              "questionOrder": 5,
+              "questionText": "What subjects do you teach?"
+            }
+          ]
+        },
+        {
+          "sectionIdentifier": "READ_ALOUD",
+          "lessonSectionName": "Birbal, the Wise",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Once upon a time, there was a farmer named Ramu. Ramu bought a well from his neighbour Santosh. Ramu wanted to use the water for farming. Santosh was a cunning fellow. He did not allow Ramu to take water from the well. When Ramu wanted to know the reason, Santosh said, “I sold you the well, not the water”. Poor Ramu did not know what to do. He decided to meet Birbal.<br/><br/>Birbal was a clever man and would always help the poor and the needy. He was one of the chief courtiers of Emperor Akbar. Ramu and Santosh were called to the court. The emperor asked Santosh why he was not giving water to Ramu as he was the new owner of the well. Santosh gave the same old answer. “I sold the well, not the water. He cannot take any water”.<br/><br/>Birbal told Santosh,“ all right, I got your point. If you say you only sold the well and not the water, then you have no right to keep your water in Ramu's well. Take out all the water and give him the empty well.”<br/><br/>Santosh learnt his lesson. He knew he was beaten at his own game by the clever courtier, Birbal. He asked the King to forgive him. He left the court in shame. He never cheated anyone again."
+            }
+          ]
+        },
+        {
+          "sectionIdentifier": "WRITE_RIGHT",
+          "lessonSectionName": "Nouns- Number",
+          "lessonSectionDescription": "When a noun refers to just one it is said to be in the singular and when the noun refers to more than one, it is called plural number. There are many ways by which a singular can be changed to plural, by adding s, es, ies, en, ren, changing the middle vowel of the word etc.",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Unscramble the following to get the plural form of nouns.",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "TACS",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "C",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "A",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "T",
+                      "isAnswer": true
+                    },
+                    {
+                        "optionOrder": 4,
+                        "answerOrder": 4,
+                        "optionText": "S",
+                        "isAnswer": true
+                      }
+                  ]
+                },
+                {
+                  "questionOrder": 2,
+                  "questionText": "DAELIS",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "L",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "A",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "D",
+                      "isAnswer": true
+                    },
+                    {
+                        "optionOrder": 4,
+                        "answerOrder": 4,
+                        "optionText": "I",
+                        "isAnswer": true
+                      },
+                      {
+                        "optionOrder": 5,
+                        "answerOrder": 5,
+                        "optionText": "E",
+                        "isAnswer": true
+                      },
+                      {
+                        "optionOrder": 6,
+                        "answerOrder": 6,
+                        "optionText": "S",
+                        "isAnswer": true
+                      }
+                  ]
+                },
+                {
+                  "questionOrder": 3,
+                  "questionText": "XFESO",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "F",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "X",
+                      "isAnswer": true
+                    },
+                    {
+                        "optionOrder": 4,
+                        "answerOrder": 4,
+                        "optionText": "E",
+                        "isAnswer": true
+                      },
+                    {
+                      "optionOrder": 5,
+                      "answerOrder": 5,
+                      "optionText": "S",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 4,
+                  "questionText": "NXOE",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "X",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "E",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "answerOrder": 4,
+                      "optionText": "N",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 5,
+                  "questionText": "ENM",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "M",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "E",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "N",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 6,
+                  "questionText": "WNOME",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "W",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "M",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "answerOrder": 4,
+                      "optionText": "E",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 5,
+                      "answerOrder": 5,
+                      "optionText": "N",
+                      "isAnswer": true
+                    }
+                  ]
+                }
+              ]
+            },{
+              "questionOrder": 2,
+              "questionText": "Pick out the conjunctions from the following sentences",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "Pick out the conjunctions from the following sentences",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "But",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Yet",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "At",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "See",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 5,
+                      "optionText": "Hence",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 6,
+                      "optionText": "Also",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 7,
+                      "optionText": "Although",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 8,
+                      "optionText": "Train",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 9,
+                      "optionText": "Whether",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 10,
+                      "optionText": "Start",
+                      "isAnswer": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },     
+    {
+      "lessonNumber": 9,
+      "lessonSections": [
+        {
+          "sectionIdentifier": "LISTEN_KEENLY",
+          "lessonSectionName": "Never Stop.",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Take the Quiz",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "Who was Max?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Kitten",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Puppy",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Turtle",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Seal",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 2,
+                  "questionText": "Where was he coming back from?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Office",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Market",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Hospital",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "School",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 3,
+                  "questionText": "ow was he feeling?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Happy",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Sad",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Overjoyed",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Angry",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 4,
+                  "questionText": "Who came into his room?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Brother",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Father",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Sister",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Mother",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 5,
+                  "questionText": "Why was Max sad?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Because he got two in Math",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Because he did not win the game",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "because he was punished in class",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Because he fell down",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 6,
+                  "questionText": "What does his mother say? A.  b.  c.  d. ",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Never give up",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Don’t fight",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Be happy",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Run the race",
+                      "isAnswer": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sectionIdentifier": "SPEAK_WELL",
+          "lessonSectionName": "Conversation Practice",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "What is your mother’s name?"
+            },
+            {
+              "questionOrder": 2,
+              "questionText": "What is your father’s name?"
+            },
+            {
+              "questionOrder": 3,
+              "questionText": "What is your headmaster’s/ headmistress’s name?"
+            },
+            {
+              "questionOrder": 4,
+              "questionText": "Describe your school."
+            },
+            {
+              "questionOrder": 5,
+              "questionText": "Describe a typical day in your school."
+            }
+          ]
+        },
+        {
+          "sectionIdentifier": "READ_ALOUD",
+          "lessonSectionName": "The Crystal Ball",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "One day Nasir was playing in his garden. Nasir’s garden had many beautiful trees. Nasir found a ball near the huge, banyan tree. The ball was made of crystal and as he turned it in his hand he realised it was a wish fulfilling crystal ball about which he had read in his books. He kept it carefully inside his bag. He did not like to make any wish without thinking.<br/><br/>Nasir’s friend found out about the ball and stole it from him. He showed it to everyone in the village. The greedy villagers asked for money and gold. They fought among themselves as they did not want to share the gifts. They went to Nasir and asked for his help.<br/><br/>Nasir felt sad and he quickly realised that he had to do something fast to restore peace in the village. He took the crystal ball and wished that everything should become as it was before. He also asked the crystal ball to disappear. Everything vanished and the villagers realised what Nasir had done.<br/><br/>There was peace and the villagers understood that such shortcuts only lead to loss of peace and harmony."
+            }
+          ]
+        },
+        {
+          "sectionIdentifier": "WRITE_RIGHT",
+          "lessonSectionName": "Possessive nouns",
+          "lessonSectionDescription": "Possessive nouns are used to indicate that something belongs to a person, place, thing or idea. A possessive noun is formed by adding an apostrophe and an “s” to the end of a singular noun. E.g.  Father’s name, Nasir’s garden, grandmother’s house",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Unscramble the following to make meaningful words",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "HOSCOL",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "S",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "C",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "H",
+                      "isAnswer": true
+                    },
+                    {
+                        "optionOrder": 4,
+                        "answerOrder": 4,
+                        "optionText": "O",
+                        "isAnswer": true
+                      },
+                      {
+                        "optionOrder": 5,
+                        "answerOrder": 5,
+                        "optionText": "O",
+                        "isAnswer": true
+                      },
+                      {
+                        "optionOrder": 6,
+                        "answerOrder": 6,
+                        "optionText": "L",
+                        "isAnswer": true
+                      }
+                  ]
+                },
+                {
+                  "questionOrder": 2,
+                  "questionText": "OKOBS",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "B",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                        "optionOrder": 4,
+                        "answerOrder": 4,
+                        "optionText": "K",
+                        "isAnswer": true
+                      },
+                      {
+                        "optionOrder": 5,
+                        "answerOrder": 5,
+                        "optionText": "S",
+                        "isAnswer": true
+                      }
+                  ]
+                },
+                {
+                  "questionOrder": 3,
+                  "questionText": "HTOOT",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "T",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                        "optionOrder": 4,
+                        "answerOrder": 4,
+                        "optionText": "T",
+                        "isAnswer": true
+                      },
+                      {
+                        "optionOrder": 5,
+                        "answerOrder": 5,
+                        "optionText": "H",
+                        "isAnswer": true
+                      }
+                  ]
+                },
+                {
+                  "questionOrder": 4,
+                  "questionText": "TOFO",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "F",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "answerOrder": 4,
+                      "optionText": "T",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 5,
+                  "questionText": "COLO",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "C",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "answerOrder": 4,
+                      "optionText": "L",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 6,
+                  "questionText": "NMOO",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "M",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "O",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "answerOrder": 4,
+                      "optionText": "N",
+                      "isAnswer": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "questionOrder": 2,
+              "questionText": "Pick the possessive nouns from the list below",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "Pick the possessive nouns from the list below",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Boys",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Father’s",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Maria’s",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Child’s",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 5,
+                      "optionText": "Goats",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 6,
+                      "optionText": "Dog’s",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 7,
+                      "optionText": "Delhi’s",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 8,
+                      "optionText": "Its",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 9,
+                      "optionText": "Baby’s",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 10,
+                      "optionText": "Babies",
+                      "isAnswer": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonNumber": 10,
+      "lessonSections": [
+        {
+          "sectionIdentifier": "LISTEN_KEENLY",
+          "lessonSectionName": "The Bread of Happiness",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Take the Quiz",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "Where did the man go?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Shop",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Dairy",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Bakery",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Restaurant",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 2,
+                  "questionText": "What did he look for?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "The bread of happiness",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "The bread of sorrow",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "The bread of India",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "The bread of Egypt",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 3,
+                  "questionText": "Where did he decide to go?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "Towns",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "Cities",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "Villages",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "Countries",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 4,
+                  "questionText": "Who approached him when he sat under the tree?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "A little boy",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "An old man",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "A young girl",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "A rich woman",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 5,
+                  "questionText": "What did he offer?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "A bag of gold",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "A piece of his bread",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "A slice of cake",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "A plate of rice",
+                      "isAnswer": false
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 6,
+                  "questionText": "How did the man find the bread of happiness?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "When people share their things",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "When people sell their things",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "When people steal from others",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "When people hide their things",
+                      "isAnswer": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sectionIdentifier": "SPEAK_WELL",
+          "lessonSectionName": "Conversation Practice",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Which are the festivals you celebrate during winter?"
+            },
+            {
+              "questionOrder": 2,
+              "questionText": "Name the festival you celebrate during Spring."
+            },
+            {
+              "questionOrder": 3,
+              "questionText": "Which is your favourite festival?"
+            },
+            {
+              "questionOrder": 4,
+              "questionText": "Describe a major festival in your home."
+            },
+            {
+              "questionOrder": 5,
+              "questionText": "Describe a major festival in your town."
+            }
+          ]
+        },
+        {
+          "sectionIdentifier": "READ_ALOUD",
+          "lessonSectionName": "Festivals",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "India is a land of festivals. Hindus, Muslims, Christians, Buddhists, Jains, Sikhs, and Parsis have their own festivals and they celebrate them with their families and friends. Every season has its share of festivals. The New Year, Sankranthi, Holi, Dussehra, Diwali, Christmas, Bakrid, Mahavir Jayanti and Buddha Poornima are some of the popular festivals along with the New Year celebrations of various states. Festivals help us understand our unique culture and bring people together in a spirit of peace and harmony. Apart from the religious festivals, we have cultural festivals and the National festivals. Republic Day and Independence Day foster our sense of duty and patriotism as responsible citizens."
+            }
+          ]
+        },
+        {
+          "sectionIdentifier": "WRITE_RIGHT",
+          "lessonSectionName": "Minimal Pairs",
+          "lessonSectionDescription": "Minimal pairs are two words that are pronounced in a similar way but have one sound that is different. This sound can be a vowel or consonant.  E.g. cat-cut, sip-zip",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Unscramble the following words",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "ISRI",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "R",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "I",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "S",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "answerOrder": 4,
+                      "optionText": "E",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 2,
+                  "questionText": "ICME",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "M",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "I",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "C",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "answerOrder": 4,
+                      "optionText": "E",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 3,
+                  "questionText": "CIE",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "I",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "C",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "E",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 4,
+                  "questionText": "YEES",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "E",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "Y",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "E",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "answerOrder": 4,
+                      "optionText": "S",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 5,
+                  "questionText": "MSU",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "S",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "U",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "M",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 6,
+                  "questionText": "MGU",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "G",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "answerOrder": 2,
+                      "optionText": "U",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 3,
+                      "answerOrder": 3,
+                      "optionText": "M",
+                      "isAnswer": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "questionOrder": 2,
+              "questionText": "Pick out the minimal pairs from the list given below",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "Pick out the minimal pairs from the list given below",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "optionText": "van-ban",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 2,
+                      "optionText": "cut-put",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 3,
+                      "optionText": "bend-mend",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 4,
+                      "optionText": "bean-ten",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 5,
+                      "optionText": "mew-sew (pronounced so)",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 6,
+                      "optionText": "free-three",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 7,
+                      "optionText": "bus-buzz",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 8,
+                      "optionText": "bat-but",
+                      "isAnswer": true
+                    },
+                    {
+                      "optionOrder": 9,
+                      "optionText": "tin-fun",
+                      "isAnswer": false
+                    },
+                    {
+                      "optionOrder": 10,
+                      "optionText": "mean-lean",
+                      "isAnswer": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonNumber": -1,
+      "lessonSections": [
+        {
+          "sectionIdentifier": "ASSESSMENT",
+          "lessonSectionName": "ASSESSMENT",
+          "questions": [
+            {
+              "questionOrder": 1,
+              "questionText": "Fill in the blanks by dragging and dropping the correct word given in the box.",
+              "subQuestions": [
+                {
+                  "questionOrder": 1,
+                  "questionText": "Are <input> going out this evening?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "We",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 2,
+                  "questionText": "What is <input> name?",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "Your",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 3,
+                  "questionText": "The coins are small but the box is <input>.",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "Large",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 4,
+                  "questionText": "Evenings are <input> but mornings are bright.",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "Dull",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 5,
+                  "questionText": "What do you call a person who works in a ship? <input>",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "Sailor",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 6,
+                  "questionText": "A person who used to work in a court attending on a king or queen was called <input>.",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "Courtier",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 7,
+                  "questionText": "The <input> skin is very soft.",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "Baby's",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 8,
+                  "questionText": "<input> cry when they are hungry.",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "Babies",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 9,
+                  "questionText": "The Arctic region is filled with sheets of <input>.",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "Ice",
+                      "isAnswer": true
+                    }
+                  ]
+                },
+                {
+                  "questionOrder": 10,
+                  "questionText": "The doll has blue <input>.",
+                  "subquestionOptions": [
+                    {
+                      "optionOrder": 1,
+                      "answerOrder": 1,
+                      "optionText": "Eyes",
+                      "isAnswer": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

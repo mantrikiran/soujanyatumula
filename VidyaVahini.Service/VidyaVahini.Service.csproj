@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="MySql.Data" Version="8.0.23" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VidyaVahini.Core\VidyaVahini.Core.csproj" />
+    <ProjectReference Include="..\VidyaVahini.DataAccess.Contracts\VidyaVahini.DataAccess.Contracts.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Infrastructure.Contracts\VidyaVahini.Infrastructure.Contracts.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Infrastructure.Exception\VidyaVahini.Infrastructure.Exception.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Repository.Contracts\VidyaVahini.Repository.Contracts.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Service.Contracts\VidyaVahini.Service.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
