@@ -889,6 +889,9 @@ namespace VidyaVahini.DataAccess.Models
                 entity.HasIndex(e => e.StateId)
                     .HasName("School_FK_State");
 
+                entity.HasIndex(e => e.countryid)
+                  .HasName("School_FK_country");
+
                 entity.Property(e => e.AddressLine1)
                     .IsRequired()
                     .HasColumnType("varchar(200)")
@@ -947,6 +950,12 @@ namespace VidyaVahini.DataAccess.Models
                     .HasForeignKey(d => d.StateId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("School_FK_State");
+
+                entity.HasOne(d => d.Country)
+                    .WithMany(p => p.Schools)
+                    .HasForeignKey(d => d.countryid)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("School_FK_country");
             });
 
             modelBuilder.Entity<SectionType>(entity =>

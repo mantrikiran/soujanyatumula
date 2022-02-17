@@ -1,5 +1,7 @@
-﻿using System;
+﻿using ExcelDataReader;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using VidyaVahini.Core.Constant;
 using VidyaVahini.Core.Enum;
@@ -8,6 +10,7 @@ using VidyaVahini.DataAccess.Contracts;
 using VidyaVahini.Entities.Dashboard;
 using VidyaVahini.Entities.Language;
 using VidyaVahini.Entities.Notification;
+using VidyaVahini.Entities.Response;
 using VidyaVahini.Entities.Role;
 using VidyaVahini.Entities.Teacher;
 using VidyaVahini.Entities.Teacher.Dashboard;
@@ -194,6 +197,82 @@ namespace VidyaVahini.Service
                 return teacherAccountResponse;
             }
         }
+
+
+        public SchoolDataUploadModel AddTeachers(Stream fileStream)
+        {
+            List<AddTeacherData> teacherData = new List<AddTeacherData>();
+            List<ErrorExcelRow> errorExcelRows = new List<ErrorExcelRow>();
+            System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
+            using (var reader = ExcelReaderFactory.CreateReader(fileStream))
+            {
+                for (int row = 1; reader.Read(); row++)
+                {
+                    //if (row == 1) continue;
+                    var teacher = new AddTeacherData();
+
+                    if (string.IsNullOrWhiteSpace(reader.GetString(1)))
+                    {
+                        errorExcelRows.Add(new ErrorExcelRow
+                        {
+                            RowNumber = row,
+                            ColumnNumber = 1,
+                            ErrorMessage = "required data is missing",
+                        });
+                        continue;
+                    }
+                    else
+                    {
+                        teacher.Email = reader.GetValue(0)?.ToString();
+                    }                    
+                    if (string.IsNullOrWhiteSpace(reader.GetValue(1)?.ToString()))
+                    {
+                        errorExcelRows.Add(new ErrorExcelRow
+                        {
+                            RowNumber = row,
+                            ColumnNumber = 2,
+                            ErrorMessage = "required data is missing",
+                        });
+                        continue;
+                    }
+                    else
+                    {
+                        teacher.Name = reader.GetValue(1)?.ToString();
+                    }
+                  
+                    if (string.IsNullOrWhiteSpace(reader.GetValue(2)?.ToString()))
+                    {
+                        errorExcelRows.Add(new ErrorExcelRow
+                        {
+                            RowNumber = row,
+                            ColumnNumber = 3,
+                            ErrorMessage = "required data is missing",
+                        });
+                        continue;
+                    }
+                    else
+                    {
+                        teacher.SchoolCode = reader.GetValue(2)?.ToString();
+                    }
+                   
+                    teacherData.Add(teacher);
+                }
+            }
+
+            var teachersAdded = _teacherRepository.AddTeachers(teacherData);
+            return new SchoolDataUploadModel
+            {
+                RecordsUploaded = teachersAdded,
+                DuplicateRecords = teacherData.Count - teachersAdded,
+                RowsNotUploaded = errorExcelRows,
+            };
+        }
+
+
+
+
+
+
 
         public TeacherDashboardModel GetTeacherDashboard(string userId)
         {

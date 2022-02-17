@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using System.IO;
+using System.Linq;
 using VidyaVahini.DataAccess.Models;
 using VidyaVahini.Entities.Dashboard;
 using VidyaVahini.Entities.Response;
@@ -12,10 +15,12 @@ namespace VidyaVahini.WebApi.Controllers
     public class TeacherController : BaseController
     {
         private readonly ITeacherService _teacherService;
+        private readonly IConfiguration _configuration;
 
-        public TeacherController(ITeacherService teacherService)
+        public TeacherController(ITeacherService teacherService, IConfiguration configuration)
         {
             _teacherService = teacherService;
+            _configuration = configuration;
         }
 
         [HttpGet("{email}")]
@@ -45,6 +50,36 @@ namespace VidyaVahini.WebApi.Controllers
                 Success = response
             });
         }
+
+        [Route("[action]")]
+        [HttpPost]
+        public Response<SchoolDataUploadModel> Addteachers([FromForm] ExcelFile files)
+        {
+            var acceptedFileTypes = _configuration.GetSection("SchoolDataFileTypes").Get<string[]>();
+            var file = files.files;
+            //var file = HttpContext.Request.Form.Files.Count > 0
+            //    ? HttpContext.Request.Form.Files[0]
+            //    : null;
+            if (file == null)
+            {
+                throw new FileNotFoundException("File not sent to server.");
+            }
+            else if (!acceptedFileTypes.Contains(new FileInfo(file.FileName).Extension.Trim()))
+            {
+                throw new FileLoadException("Please upload supported file formats only (.xlsx, .xls, .csv).");
+            }
+            else if (file.Length <= 0 || !file.OpenReadStream().CanRead || file.OpenReadStream().Length <= 0)
+            {
+                throw new FileLoadException("Please upload file that can be readable with data.");
+            }
+            else
+            {
+                return GetResponse(_teacherService.AddTeachers(file.OpenReadStream()));              
+            }          
+
+           
+        }
+
 
         [HttpGet("dashboard/{userId}")]
         public Response<TeacherDashboardModel> GetDashboard(string userId)
@@ -115,10 +150,6 @@ namespace VidyaVahini.WebApi.Controllers
         [HttpGet("TeacherSummaryReport")]
         public Response<TeacherSummaryReport> TeacherSummaryReport()
           => GetResponse(new TeacherSummaryReport { Data = _teacherService.GetTeacherSummaryReport() });
-
-
-
-
 
         //[HttpGet("dashboard/section/{lessonSectionId}/instructions/{languageId}")]
         //public Response<InstructionModel> GetSectionInstructions(string lessonSectionId, int languageId)
@@ -204,10 +235,6 @@ namespace VidyaVahini.WebApi.Controllers
         public Response<TeachersMentorModel> GetTeachersMissingMentor()
         => GetResponse(_teacherService
                 .GetTeachersMissingMentor());
-
-
-
-
 
         [Route("[action]")]
         [HttpPost]

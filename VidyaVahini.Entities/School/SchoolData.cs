@@ -9,6 +9,7 @@
         public string AddressLine2 { get; set; }
         public string City { get; set; }
         public string Area { get; set; }
-        public int StateId { get; set; }
+        public string StateId { get; set; }
+        public string countryid { get; set; }
     }
 }

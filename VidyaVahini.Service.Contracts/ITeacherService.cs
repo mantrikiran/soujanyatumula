@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using VidyaVahini.Entities.Dashboard;
+using VidyaVahini.Entities.Response;
 using VidyaVahini.Entities.Teacher;
 using VidyaVahini.Entities.Teacher.Dashboard;
 using VidyaVahini.Entities.Teacher.Lesson;
@@ -135,5 +137,8 @@ namespace VidyaVahini.Service.Contracts
         /// </summary>
         /// <param name="activeLessonSet">Current Lesson Set details</param>
         void DeleteLessonSetData(TeacherCommand teacher);
+
+
+        SchoolDataUploadModel AddTeachers(Stream fileStream);
     }
 }

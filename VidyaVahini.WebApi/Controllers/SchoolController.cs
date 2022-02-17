@@ -5,6 +5,9 @@ using System.IO;
 using System.Linq;
 using VidyaVahini.Entities.Response;
 using VidyaVahini.Service.Contracts;
+using Microsoft.AspNetCore.Http;
+using VidyaVahini.Entities.School;
+using VidyaVahini.DataAccess.Models;
 
 namespace VidyaVahini.WebApi.Controllers
 {
@@ -19,16 +22,16 @@ namespace VidyaVahini.WebApi.Controllers
             _configuration = configuration;
         }
 
-        [Route("[action]")]
+        
+        [Route("[action]")]        
         [HttpPost]
-        public Response<SchoolDataUploadModel> AddSchools()
-        {
-            var acceptedFileTypes = _configuration.GetSection("SchoolDataFileTypes").Get<string[]>();
-
-            var file = HttpContext.Request.Form.Files.Count > 0
-                ? HttpContext.Request.Form.Files[0]
-                : null;
-
+        public Response<SchoolDataUploadModel> AddSchools([FromForm] ExcelFile files)
+        {     
+                var acceptedFileTypes = _configuration.GetSection("SchoolDataFileTypes").Get<string[]>();
+            var file = files.files;
+            //var file = HttpContext.Request.Form.Files.Count > 0
+            //    ? HttpContext.Request.Form.Files[0]
+            //    : null;
             if (file == null)
             {
                 throw new FileNotFoundException("File not sent to server.");               

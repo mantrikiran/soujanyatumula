@@ -98,7 +98,7 @@ namespace VidyaVahini.Repository
                 string from = teacherId;
                 string to = teacher.MentorId;
                 int roleid = 5;
-                string message = userProfile.Name + " has queried for the " + lesson.LessonName + "  " + sectiontype.SectionTypeDescription + " section";
+                string message = userProfile.Name + " has  submitted a query  for the " + lesson.LessonName + "  " + sectiontype.SectionTypeDescription + " section";
                 string created_date = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                 int status = 1;
                 _unitOfWork
@@ -463,20 +463,36 @@ namespace VidyaVahini.Repository
 
         public IEnumerable<QueryModel> GetQueriesByQueryIds(IEnumerable<string> queryIds)
         {
+            IEnumerable<Query> q1 =null;
+            List<Query> lq = new List<Query>();
             List<QueryModel> queryModels = new List<QueryModel>();
             var includeQueryProperties = new StringBuilder(Constants.QueryDatasProperty);
             includeQueryProperties.Append($",{Constants.QuestionProperty}");
             includeQueryProperties.Append($",{Constants.QuestionProperty}.{Constants.QuestionMediasProperty}");
             includeQueryProperties.Append($",{Constants.QuestionProperty}.{Constants.QuestionMediasProperty}.{Constants.MediaProperty}");
-            includeQueryProperties.Append($",{Constants.QueryDatasProperty}.{Constants.MediaProperty}");
+             includeQueryProperties.Append($",{Constants.QueryDatasProperty}.{Constants.MediaProperty}");
             includeQueryProperties.Append($",{Constants.QueryDatasProperty}.{Constants.UserAccountProperty}");
             includeQueryProperties.Append($",{Constants.QuestionProperty}.{Constants.LessonSectionProperty}");
             includeQueryProperties.Append($",{Constants.QuestionProperty}.{Constants.LessonSectionProperty}.{Constants.SectionTypeProperty}");
             includeQueryProperties.Append($",{Constants.QuestionProperty}.{Constants.LessonSectionProperty}.{Constants.LessonProperty}");
             includeQueryProperties.Append($",{Constants.QueryDatasProperty}.{Constants.UserAccountProperty}.{Constants.UserProfileProperty}");
+            
 
-            var queries = _query.Filter(x => queryIds.Contains(x.QueryId),
-                includeProperties: includeQueryProperties.ToString());
+            foreach (var qid in queryIds)
+            {
+                var queries1 = _query.Filter(x => x.QueryId==qid.ToString(),
+                   includeProperties: includeQueryProperties.ToString());
+                List<Query> lq1 = new List<Query>();
+
+                foreach (var q11 in queries1)
+                {
+                    lq.Add(q11);
+                }                
+            }
+
+            var queries = lq.AsEnumerable();
+
+
 
             if (queries == null)
                 return queryModels;

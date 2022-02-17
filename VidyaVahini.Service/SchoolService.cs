@@ -26,7 +26,7 @@ namespace VidyaVahini.Service
             {
                 for (int row = 1; reader.Read(); row++)
                 {
-                    if (row == 1) continue;
+                   //if (row == 1) continue;
                     var school = new SchoolData();
 
                     if (string.IsNullOrWhiteSpace(reader.GetString(1)))
@@ -89,7 +89,7 @@ namespace VidyaVahini.Service
                     {
                         school.Area = reader.GetValue(7)?.ToString();
                     }
-                    if (int.TryParse(reader.GetValue(8)?.ToString(), out int stateId))
+                    if (string.IsNullOrWhiteSpace(reader.GetValue(8)?.ToString()))
                     {
                         errorExcelRows.Add(new ErrorExcelRow
                         {
@@ -101,7 +101,21 @@ namespace VidyaVahini.Service
                     }
                     else
                     {
-                        school.StateId = stateId;
+                        school.StateId =reader.GetValue(8)?.ToString();
+                    }
+                    if (string.IsNullOrWhiteSpace(reader.GetValue(9)?.ToString()))
+                    {
+                        errorExcelRows.Add(new ErrorExcelRow
+                        {
+                            RowNumber = row,
+                            ColumnNumber = 10,
+                            ErrorMessage = "required data is missing or not in correct format",
+                        });
+                        continue;
+                    }
+                    else
+                    {
+                        school.countryid = reader.GetValue(9)?.ToString();
                     }
 
                     schoolData.Add(school);

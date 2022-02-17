@@ -30,7 +30,7 @@ namespace VidyaVahini.Service.Contracts
         /// </summary>
         /// <param name="queryIds">Query Ids </param>
         /// <returns>List of queries based on query ids</returns>
-        public IEnumerable<QueryModel> GetQueriesByQueryIds(IEnumerable<string> queryIds);
+        public IEnumerable<QueryModel> GetQueriesByQueryIds(IEnumerable<string>  queryIds);
 
         /// <summary>
         /// Delete Query by Query Id

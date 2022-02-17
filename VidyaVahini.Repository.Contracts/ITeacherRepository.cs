@@ -161,5 +161,6 @@ namespace VidyaVahini.Repository.Contracts
         bool DeleteLessonSetData(string teacherId);
         IEnumerable<TeacherLessonReport> GetTeacherReport();
         IEnumerable<TeacherSummaryLessonReport> GetTeacherSummaryReport();
+        int AddTeachers(IEnumerable<AddTeacherData> teacherData);
     }
 }

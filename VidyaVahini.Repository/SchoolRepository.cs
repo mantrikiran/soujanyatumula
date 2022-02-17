@@ -35,7 +35,8 @@ namespace VidyaVahini.Repository
                 Email = school.Email,
                 Id = school.SchoolId,
                 Name = school.SchoolName,
-                StateId = school.StateId
+                StateId = school.StateId.ToString(),
+                countryid=school.countryid.ToString()
             };
         }
 
@@ -47,18 +48,45 @@ namespace VidyaVahini.Repository
 
             foreach (SchoolData school in newSchoolData)
             {
-                _school.Add(new School
+                if (school.Email == "Email")
+                { 
+                
+                }
+                else
                 {
-                    AddressLine1 = school.AddressLine1,
-                    AddressLine2 = school.AddressLine2,
-                    Area = school.Area,
-                    City = school.City,
-                    SchoolCode = school.Code,
-                    ContactNumber = school.ContactNumber,
-                    Email = school.Email,
-                    SchoolName = school.Name,
-                    StateId = school.StateId,
-                });
+                    int sid = 0;
+                    int cid = 0;
+                    if (school.StateId == "StateId")
+                    {
+                        sid = 0;
+                    }
+                    else
+                    {
+                        sid = int.Parse(school.StateId);
+                    }
+                    if (school.countryid == "countryid")
+                    {
+                        cid = 0;
+                    }
+                    else
+                    {
+                        cid = int.Parse(school.countryid);
+                    }
+                    _school.Add(new School
+                    {
+                        AddressLine1 = school.AddressLine1,
+                        AddressLine2 = school.AddressLine2,
+                        Area = school.Area,
+                        City = school.City,
+                        SchoolCode = school.Code,
+                        ContactNumber = school.ContactNumber,
+                        Email = school.Email,
+                        SchoolName = school.Name,
+                        StateId = sid,
+                        countryid = cid,
+                    });
+                }
+                
             }
 
            return _unitOfWork.Commit();

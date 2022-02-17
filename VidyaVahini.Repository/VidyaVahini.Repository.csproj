@@ -15,6 +15,7 @@
     <ProjectReference Include="..\VidyaVahini.DataAccess.Contracts\VidyaVahini.DataAccess.Contracts.csproj" />
     <ProjectReference Include="..\VidyaVahini.DataAccess\VidyaVahini.DataAccess.csproj" />
     <ProjectReference Include="..\VidyaVahini.Entities\VidyaVahini.Entities.csproj" />
+    <ProjectReference Include="..\VidyaVahini.Infrastructure.Exception\VidyaVahini.Infrastructure.Exception.csproj" />
     <ProjectReference Include="..\VidyaVahini.Repository.Contracts\VidyaVahini.Repository.Contracts.csproj" />
   </ItemGroup>
 

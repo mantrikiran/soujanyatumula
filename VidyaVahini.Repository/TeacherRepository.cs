@@ -23,6 +23,7 @@ using VidyaVahini.Entities.Teacher.Lesson;
 using VidyaVahini.Entities.Teacher.LessonSection;
 using VidyaVahini.Entities.UserAccount;
 using VidyaVahini.Entities.UserProfile;
+using VidyaVahini.Infrastructure.Exception;
 using VidyaVahini.Repository.Contracts;
 
 namespace VidyaVahini.Repository
@@ -47,6 +48,7 @@ namespace VidyaVahini.Repository
         private readonly IDataAccessRepository<SubQuestion> _subQuestion;
         private readonly IDataAccessRepository<UserProfile> _userProfile;
         private readonly IDataAccessRepository<syncdateinfo> _syncdateinfo;
+        private readonly IDataAccessRepository<School> _school;
         private MySqlConnection _dbconnection;
         private MySqlConnection _dbconnection1;
         private MySqlConnection _dbconnectionnew;
@@ -74,6 +76,7 @@ namespace VidyaVahini.Repository
             _subQuestion = _unitOfWork.Repository<SubQuestion>();
             _userProfile = _unitOfWork.Repository<UserProfile>();
             _syncdateinfo = _unitOfWork.Repository<syncdateinfo>();
+            _school = _unitOfWork.Repository<School>();
             _dbconnection = new MySqlConnection(_configuration.GetConnectionString(Connectionstring));
              }
 
@@ -304,6 +307,73 @@ namespace VidyaVahini.Repository
             };
         }
 
+
+        public int AddTeachers(IEnumerable<AddTeacherData> teacherData1)
+        {
+            var dbSchools = _teacher.GetAll();
+
+            var newSchoolData = teacherData1;
+            int i = 0;
+            foreach (AddTeacherData teacher in newSchoolData)
+            {
+              
+                if (teacher.Email == "Email")
+                {
+
+                }
+                else
+                {
+                    i=i+1;
+                    var school = _school.Filter(x => x.SchoolCode == teacher.SchoolCode);
+                    int scode = 0;
+                    if (school != null)
+                    {
+                        foreach (var scode1 in school)
+                        {
+                            scode = scode1.SchoolId;
+                        }
+                    }
+
+                    var userId = Guid.NewGuid().ToString();
+                        UserAccountData userAccountData = new UserAccountData
+                        {
+                            UserId = userId,
+                            Username = teacher.Email,
+                            IsActive = false,
+                            IsRegistered = false,
+                            ActivationEmailCount = 0,
+                            FailedLoginAttempt = 0
+                        };
+
+                        UserProfileData userProfileData = new UserProfileData
+                        {
+                            UserId = userId,
+                            Name = teacher.Name,
+                            Email = teacher.Email
+                        };
+
+                        UserRoleData userRoleData = new UserRoleData
+                        {
+                            UserId = userId,
+                            RoleId = (int)Enums.Role.Teacher
+                        };
+
+                        TeacherData teacherData = new TeacherData
+                        {
+                            UserId = userId,
+                            SchoolId = scode
+                        };
+
+                        bool teacherAccountResponse = CreateTeacherAccount(userAccountData,
+                            userProfileData, userRoleData, teacherData);                   
+
+                }
+            }
+
+            return i;
+        }
+
+
         public bool CreateTeacherAccount(UserAccountData userAccount,
             UserProfileData userProfile, UserRoleData userRole, TeacherData teacherData)
         {
@@ -377,15 +447,18 @@ namespace VidyaVahini.Repository
             List<NotificationsModel> notificationModels = new List<NotificationsModel>();
             foreach (var notifications in notification)
             {
+                var parsedDate = DateTime.Parse(notifications.created_date);
+                string created_date = parsedDate.ToString("dd-MMM-yyyy  hh:mm:ss tt");
+
                 notificationModels.Add(new NotificationsModel
                 {
                     Id=notifications.Id,
                     from = notifications.msgfrom,
                     to = notifications.msgto,
                     roleid = notifications.roleid,
-                    message = notifications.message,
-                    created_date = notifications.created_date,
-                    status = notifications.status
+                    message = notifications.message,                  
+                    created_date =created_date,
+                    status = notifications.status,
 
                 });
             }
@@ -2648,47 +2721,50 @@ namespace VidyaVahini.Repository
             {
                 var teacher = _teacher
                              .Find(x => (string.Equals(x.TeacherId, userId, StringComparison.OrdinalIgnoreCase)));
-                var userProfile = _userProfile
-                      .Find(x => (string.Equals(x.UserId, userId, StringComparison.OrdinalIgnoreCase)));
-
-                int wrmsg = 0;
-                var question = new Question();
-                foreach (var res in questionResponses)
+                if (teacher.MentorId != null)
                 {
-                    question = _question.Find(x => (string.Equals(x.QuestionId, res.QuestionId)));
-                    wrmsg = question.QuestionOrder;
+                    var userProfile = _userProfile
+                         .Find(x => (string.Equals(x.UserId, userId, StringComparison.OrdinalIgnoreCase)));
+
+                    int wrmsg = 0;
+                    var question = new Question();
+                    foreach (var res in questionResponses)
+                    {
+                        question = _question.Find(x => (string.Equals(x.QuestionId, res.QuestionId)));
+                        wrmsg = question.QuestionOrder;
+                    }
+                    var lessonsection = _lessonSection
+                        .Find(x => (string.Equals(x.LessonSectionId, question.LessonSectionId, StringComparison.OrdinalIgnoreCase)));
+
+
+                    var lesson = _lesson
+                       .Find(x => (string.Equals(x.LessonId, lessonsection.LessonId, StringComparison.OrdinalIgnoreCase)));
+
+                    var sectiontype = _sectionType
+                       .Find(x => (string.Equals(x.SectionTypeId, lessonsection.SectionTypeId)));
+                    string from = userId;
+                    string to = teacher.MentorId;
+                    int roleid = 5;
+                    string message = "";
+                    if (sectiontype.SectionTypeDescription == "Write Right")
+                    {
+                        message = userProfile.Name + "  has submitted the  " + lesson.LessonName + "  " + sectiontype.SectionTypeDescription + " section" + "  Component" + wrmsg + " for review";
+                    }
+                    else
+                    {
+                        message = userProfile.Name + "  has submitted the  " + lesson.LessonName + "  " + sectiontype.SectionTypeDescription + " section  for review";
+                    }
+                    string created_date = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+                    int status = 1;
+                    _unitOfWork
+                        .Repository<Notifications>()
+                        .Add(GetNotificationdetails(from, to, roleid, message, created_date, status));
+
                 }
-                var lessonsection = _lessonSection
-                    .Find(x => (string.Equals(x.LessonSectionId, question.LessonSectionId, StringComparison.OrdinalIgnoreCase)));
-
-
-                var lesson = _lesson
-                   .Find(x => (string.Equals(x.LessonId, lessonsection.LessonId, StringComparison.OrdinalIgnoreCase)));
-
-                var sectiontype = _sectionType
-                   .Find(x => (string.Equals(x.SectionTypeId, lessonsection.SectionTypeId)));
-               
-               
-                string from = userId;
-                string to = teacher.MentorId;
-                int roleid = 5;
-                string message = "";
-                if (sectiontype.SectionTypeDescription == "Write Right")
-                {
-                    message = userProfile.Name + "  has submitted the  " + lesson.LessonName + "  " + sectiontype.SectionTypeDescription + " section" + "  Component" + wrmsg + " for review";
-                }
-                else
-                {
-                    message = userProfile.Name + "  has submitted the  " + lesson.LessonName + "  " + sectiontype.SectionTypeDescription + " section  for review";
-                }
-                string created_date = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-                int status = 1;
-                _unitOfWork
-                    .Repository<Notifications>()
-                    .Add(GetNotificationdetails(from, to, roleid, message, created_date, status));
-
+                
             }
             return _unitOfWork.Commit() > 0;
+
         }
         private Notifications GetNotificationdetails(string from, string to, int roleid, string message, string created_date, int status)
            => new Notifications
@@ -3014,22 +3090,23 @@ namespace VidyaVahini.Repository
             if (questions
                .Any(x =>x.State!=1))
             {
-                string state = "";
-               
-                if (questions.Any(x => x.State == 3))
-                {
-                   state = "has asked to REDO the ";
-                }
-                else if(questions.Any(x => x.State == 4))
-                {
-                    state = "has APPROVED the "; 
-                }
+                
 
                 var teacher = _teacher
                           .Find(x => (string.Equals(x.TeacherId, teacherId, StringComparison.OrdinalIgnoreCase)));
              
                 foreach (var quest in questions)
                 {
+                    string state = "";
+
+                    if (questions.Any(x => x.State == 3  && x.QuestionId==quest.QuestionId))
+                {
+                        state = "has asked to REDO the ";
+                    }
+                else if (questions.Any(x => x.State == 4 && x.QuestionId == quest.QuestionId))
+                    {
+                        state = "has APPROVED the ";
+                    }
                     var question = _question
                    .Find(x => (string.Equals(x.QuestionId, quest.QuestionId, StringComparison.OrdinalIgnoreCase)));
                     var lessonsection = _lessonSection
@@ -3064,7 +3141,7 @@ namespace VidyaVahini.Repository
                     string created_date = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
                     int status = 1;
                     _unitOfWork
-                        .Repository<Notifications>()
+                        .Repository<Notifications>()    
                         .Add(GetNotificationdetails(from, to, roleid, message, created_date, status));
                 }
             }           
@@ -3151,7 +3228,7 @@ namespace VidyaVahini.Repository
         private void DeleteNotifications(string teacherId)
         {
             var notifications = _notification
-              .Filter(filter: x => string.Equals(x.msgfrom, teacherId, StringComparison.OrdinalIgnoreCase) || string.Equals(x.msgto, teacherId, StringComparison.OrdinalIgnoreCase));
+              .Filter(filter: x => (x.msgfrom == teacherId) || (x.msgto == teacherId));
                   
             _unitOfWork
                 .Repository<Notifications>()
@@ -3285,17 +3362,21 @@ namespace VidyaVahini.Repository
 
         public bool DeleteLessonSetData(string teacherId)
         {
-            var includeProperties = new StringBuilder(Constants.QueriesProperty);
-            includeProperties.Append($",{Constants.TeacherResponsesProperty}");
+            //var includeProperties = new StringBuilder(Constants.QueriesProperty);
+            var includeProperties = new StringBuilder(Constants.TeacherResponsesProperty);
+            //includeProperties.Append($",{Constants.TeacherResponsesProperty}");
             includeProperties.Append($",{Constants.TeacherResponseStatusProperty}");
-            includeProperties.Append($",{Constants.QueriesProperty}.{Constants.QueryDatasProperty}");
+            //includeProperties.Append($",{Constants.QueriesProperty}.{Constants.QueryDatasProperty}");
             includeProperties.Append($",{Constants.TeacherResponsesProperty}.{Constants.MediaProperty}");
-            includeProperties.Append($",{Constants.QueriesProperty}.{Constants.QueryDatasProperty}.{Constants.MediaProperty}");
+            //includeProperties.Append($",{Constants.QueriesProperty}.{Constants.QueryDatasProperty}.{Constants.MediaProperty}");
 
             var teacher = _teacher
                 .Filter(filter: x => string.Equals(x.TeacherId, teacherId, StringComparison.OrdinalIgnoreCase),
                     includeProperties: includeProperties.ToString())
                 .FirstOrDefault();
+
+            teacher.Queries = (_query
+                .Filter(filter: x => string.Equals(x.TeacherId, teacherId, StringComparison.OrdinalIgnoreCase))).ToList();
 
             if (teacher == null)
             {

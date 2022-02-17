@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using VidyaVahini.Core.Constant;
 using VidyaVahini.Entities.Query;
 using VidyaVahini.Entities.Response;
@@ -61,8 +62,9 @@ namespace VidyaVahini.WebApi.Controllers
             });
         }
 
-        [HttpGet]
-        public Response<IEnumerable<QueryModel>> GetQueriesByQueryIds([FromQuery]IEnumerable<string> queryId)
+       
+        [HttpPost("QueryId")]
+        public Response<IEnumerable<QueryModel>> GetQueriesByQueryIds([FromBody] IEnumerable<string> queryId)
           => GetResponse(_queryService
               .GetQueriesByQueryIds(queryId));
 
